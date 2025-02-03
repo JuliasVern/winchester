@@ -1,0 +1,43 @@
+body {
+  font-family: Arial,  sans-serif;   
+    background-color: #111;
+    background-image: url(`https://www.transparenttextures.com/patterns/dark-mosaic.png`);
+    color:#ccc;
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Cinzel",serif; 
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #990000;
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+      .blinking-text {
+        animation: blink 60s infinite;
+  }
+  
+  
+  }
+   
+ 
+  }  
+  .cinzel-uniquifier {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  }
+  p {
+    font-size: 1.2rem;
+    color: #bbb;
+  }
+  
+  
